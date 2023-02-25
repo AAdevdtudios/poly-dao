@@ -1,0 +1,18 @@
+{
+    "1":{
+        "Greeting":[
+            "Good afternoon",
+            "I need help"
+        ],
+        "Action": "refer",
+        "reply":[
+            "Hello",
+            "Welcome"
+        ],
+        "Keyword":[
+            "Howfa",
+            "Watsup",
+            "How your side"
+        ]
+    }
+}
