@@ -1,7 +1,7 @@
 <template>
     <div class="body">
         <div class="header-img">
-            <img src="https://weirdrabbitnft.com/images/banner.jpg" alt="">
+            <!-- <img src="https://weirdrabbitnft.com/images/banner.jpg" alt=""> -->
         </div>
         <section id="about" class="first-section">
             <div class="body">

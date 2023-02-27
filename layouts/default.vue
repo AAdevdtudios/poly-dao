@@ -102,7 +102,7 @@ const themeMode = ref(true)
     @apply flex gap-10 items-center ml-20
 }
 .header-img{
-    @apply min-h-screen bg-black -mt-[80px] bg-no-repeat object-contain
+    @apply min-h-screen bg-black -mt-[120px] lg:-mt-[60px] bg-no-repeat bg-[60%] lg:bg-cover bg-[url(https://weirdrabbitnft.com/images/banner.jpg)]
 }
 .first-section{
     @apply bg-white dark:bg-gray-900
