@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: 'class',
-  mode: 'jit',
+  darkMode: "class",
+  mode: "jit",
   content: [
     "./assets/**/*.css",
     "./components/*.{vue,js}",
@@ -10,27 +10,30 @@ module.exports = {
     "./pages/*.vue",
     "./pages/**/*.vue",
     "./plugins/**/*.{js,ts}",
-    "./*.{vue,js,ts}"
+    "./*.{vue,js,ts}",
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        heroImg: 'url("~/assets/images/building.jpg")',
+      },
       keyframes: {
         handKey: {
-          '0%': { left: '0' },
-          '50%': { left: '15px' },
-          '100%': { left: '0' }
-        }
+          "0%": { left: "0" },
+          "50%": { left: "15px" },
+          "100%": { left: "0" },
+        },
       },
       animation: {
-        handEffect: 'handKey 1s ease infinite',
+        handEffect: "handKey 1s ease infinite",
       },
       fontFamily: {
-        'workSans': ['Work Sans', 'sans-serif']
+        workSans: ["Work Sans", "sans-serif"],
       },
-      colors:{
-        'pri' : '#F0D808'
-      }
+      colors: {
+        pri: "#F0D808",
+      },
     },
   },
   plugins: [],
-}
+};
